@@ -40,6 +40,7 @@ Tendo conseguido fazer a solda agora é hora de trocar a Firmware do Betaflight 
   - 7: Clique no botão "<b>Atualizar firmware</b>", ao finalizar você já pode clicar no botao de conectar para configurar sua placa.
   - 8: Na aba "<b>Portas</b>", na UART1 marque a opção "<b>Serial RX</b>".
   - 9: Ainda na aba "<b>Portas</b>", na UART3, em periféricos, selecione na caixa a opção "<b>TBS SmartAudio</b>".
+  - 10: Por fim, vá até a aba "<b>Configuração</b>", e selecione o tipo do Receptor conforme o modelo que você esta usando como Receptor externo.
 
 ## Recomendação:
   #### Se você fez backup das suas cofigurações do Betaflight, recomendo que não restaure elas pois existem configurações que foram alteradas na firmware e se você restaurar elas, pode acabar voltando ao padrão da firmware e você terá de instalar a firmware modificada novamente, então faça as configurações manualmente.
