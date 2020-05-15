@@ -20,4 +20,10 @@ docker run -e "TARGET=CRAZYBEEF3FS" --rm -it -v c:/Users/Ramon/Documents/GitHub/
 @ECHO *****                 Concluido                      *****
 @ECHO ##########################################################
 
+docker run -e "TARGET=CRAZYBEEF3DX" --rm -it -v c:/Users/Ramon/Documents/GitHub/Betaflight-3.5.7-Editado:/opt/betaflight betaflight/betaflight-build
+
+@ECHO ##########################################################
+@ECHO *****                 Concluido                      *****
+@ECHO ##########################################################
+
 PAUSE
