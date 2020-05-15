@@ -87,8 +87,11 @@
 #define UART3_TX_PIN            PB10
 #define UART3_RX_PIN            PB11
 #else
+#define USE_UART1                     //Linha adicionada
 #define USE_UART3
-#define SERIAL_PORT_COUNT       2
+#define SERIAL_PORT_COUNT       3     //2 - Linha alterada
+#define UART1_TX_PIN            PB5   //Linha adicionada
+#define UART1_RX_PIN            PA10  //Linha adicionada
 #define UART3_TX_PIN            PB10
 #define UART3_RX_PIN            PB11
 #endif
@@ -118,7 +121,7 @@
 #define RX_IRQ_PIN              PA8
 #define BINDPLUG_PIN            PA9
 #define USE_RX_FLYSKY_SPI_LED
-#define RX_FLYSKY_SPI_LED_PIN   PA10
+#define RX_FLYSKY_SPI_LED_PIN   PB7     //PA10 - Linha alterada
 #define DEFAULT_FEATURES        (FEATURE_TELEMETRY | FEATURE_OSD | FEATURE_MOTOR_STOP)
 #elif defined(CRAZYBEEF3DX)
 #define DEFAULT_RX_FEATURE      FEATURE_RX_SERIAL
@@ -139,7 +142,7 @@
 #define RX_MISO_PIN             SPI2_MISO_PIN
 #define RX_MOSI_PIN             SPI2_MOSI_PIN
 #define RX_FRSKY_SPI_GDO_0_PIN  PA8
-#define RX_FRSKY_SPI_LED_PIN    PA10
+#define RX_FRSKY_SPI_LED_PIN    PB7     //PA10 - Linha alterada
 #define BINDPLUG_PIN            PA9
 #define DEFAULT_FEATURES        (FEATURE_TELEMETRY | FEATURE_OSD | FEATURE_MOTOR_STOP)
 #endif
