@@ -79,9 +79,12 @@
 
 #define USE_VCP
 #if defined(CRAZYBEEF3DX)
+#define USE_UART1                     //Linha adicionada
 #define USE_UART2
 #define USE_UART3
-#define SERIAL_PORT_COUNT       3
+#define SERIAL_PORT_COUNT       4     //3 - Linha alterada
+#define UART1_TX_PIN            PB5   //Linha adicionada
+#define UART1_RX_PIN            PA10  //Linha adicionada
 #define UART2_TX_PIN            PA14
 #define UART2_RX_PIN            PA15
 #define UART3_TX_PIN            PB10
