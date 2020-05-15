@@ -20,14 +20,14 @@ Comprei um Tiny Whoop US65 de um amigo, a placa dele vem com um Receptor embutid
   - Primeiro coloque um pouco de estanho no pino, depois no cabo, por fim posicione o fio encima do pino e apenas toque com o ferro de solda para fazer a liga entre o estanho do pino e do cabo.
   - Caso o seu ferro de solda não tenha um bico fino, você pode utilizar um fio rígido e enrolar na ponta do ferro e assim poder fazer a solda SMD.
   - Também pode utilizar uma lupa para melhor identificar o pino onde você irá soldar.
-  <img src="https://user-images.githubusercontent.com/18702896/82059444-6c0bd200-969c-11ea-9378-cc501bfd4b06.jpeg" width="250" height="300" /> <img src="https://user-images.githubusercontent.com/18702896/82059948-0f5ce700-969d-11ea-8fdd-24bc56f58907.jpeg" width="250" height="300" />
+  - <img src="https://user-images.githubusercontent.com/18702896/82059444-6c0bd200-969c-11ea-9378-cc501bfd4b06.jpeg" width="250" height="300" /> <img src="https://user-images.githubusercontent.com/18702896/82059948-0f5ce700-969d-11ea-8fdd-24bc56f58907.jpeg" width="250" height="300" />
 
 ## Onde Soldar:
   - Você irá fazer a solda no pino "PA10", ele é o 6º(sexto) pino da esquerda para a direita na parte de cima do Chip.
 #### Preste atenção na orientação do chip para não errar, existe uma bolinha encima do chip para indicar a orientação, basei-se por ela.
-  <img src="https://user-images.githubusercontent.com/18702896/82064833-aaf15600-96a3-11ea-9805-fca3b3fc2390.jpeg" width="400" height="300" /> <img src="https://user-images.githubusercontent.com/18702896/82064046-a4aeaa00-96a2-11ea-86b2-3abed002a76c.jpeg" width="250" height="300" />
+  - <img src="https://user-images.githubusercontent.com/18702896/82064833-aaf15600-96a3-11ea-9805-fca3b3fc2390.jpeg" width="400" height="300" /> <img src="https://user-images.githubusercontent.com/18702896/82064046-a4aeaa00-96a2-11ea-86b2-3abed002a76c.jpeg" width="250" height="300" />
   - Este é o exemplo de como ficará na placa com Receptor FrSky e FlySky. Eu optei por soldar no resistor onde o pino esta ligado. No caso da DSMX não tem esse resistor e terá de soldar diretamente no pino do chip.
-  <img src="https://user-images.githubusercontent.com/18702896/82064963-d411e680-96a3-11ea-9e9c-c8a715c2dff5.jpeg" width="250" height="300" />
+  - <img src="https://user-images.githubusercontent.com/18702896/82064963-d411e680-96a3-11ea-9e9c-c8a715c2dff5.jpeg" width="250" height="300" />
 
 ## Trocar a Firmware:
 Tendo conseguido fazer a solda agora é hora de trocar a Firmware do Betaflight com as modificações que eu fiz para ativar a porta UART1.
